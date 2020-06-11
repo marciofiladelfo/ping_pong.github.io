@@ -23,7 +23,7 @@ function variaveis(){
 
  // Definições da folha de desenho
  folhaDesenho = document.getElementById("folha");
- folhaDesenho.height = 8git00;
+ folhaDesenho.height = 800;
  folhaDesenho.width  = 1200;
  areaDesenho = folhaDesenho.getContext('2d');
 
