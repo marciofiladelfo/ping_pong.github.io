@@ -33,10 +33,15 @@ function variaveis(){
  larguraCampo = folhaDesenho.width;
 
 
-// Movimento do PLayer1 com o mouse
-folhaDesenho.addEventListener('mousemove', function(e){
-posicaoPlayer1 = e.clientY - alturaRaquete / 2
-});
+ // Movimento do PLayer1 com o mouse
+ folhaDesenho.addEventListener('mousemove', function(e){
+ posicaoPlayer1 = e.clientY - alturaRaquete / 2
+ });
+
+ // Movimento do PLayer1 mobile
+ folhaDesenho.addEventListener('touchmove', function(m){
+ posicaoPlayer1 = m.touchY - alturaRaquete / 2
+ });
 }
 function game(){
     desenho();
