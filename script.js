@@ -62,6 +62,7 @@ function desenho(){
     //areaDesenho.font("20px Arial");
     areaDesenho.fillText("Humano: " + pontosPlayer1 + " pontos", 100, 100);
     areaDesenho.fillText("Computador: " + pontosPlayer2 + " pontos", larguraCampo - 100, 100);
+    areaDesenho.fillText("Kabana Devs Production", larguraCampo - 100, 1100);
 }
 function reiniciar(){
     bolaX = larguraCampo / 2;
