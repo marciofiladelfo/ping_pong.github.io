@@ -6,11 +6,11 @@ window.onload = function(){
 function variaveis(){
  bolaX = bolaY = 150;
  diametroBola = 10;
- velocidadeBolaX = velocidadeBolaY = constanteVelocidadeBola = 3;
+ velocidadeBolaX = velocidadeBolaY = constanteVelocidadeBola = 2;
 
  posicaoPlayer1 = posicaoPlayer2 = 80;
  pontosPlayer1 = pontosPlayer2 = 0;
- velocidadePlayer2 = 5;
+ velocidadePlayer2 = 3;
 
  espessuraRede = 5;
  alturaRaquete = 100;
@@ -23,8 +23,8 @@ function variaveis(){
 
  // Definições da folha de desenho
  folhaDesenho = document.getElementById("folha");
- folhaDesenho.height = 600;
- folhaDesenho.width  = 900;
+ folhaDesenho.height = 8git00;
+ folhaDesenho.width  = 1200;
  areaDesenho = folhaDesenho.getContext('2d');
 
 
