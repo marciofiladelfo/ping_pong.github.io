@@ -1,4 +1,4 @@
-### Projeto Jogo de ping pong em JavaScript
+### Projeto Jogo Hockey de Mesa em JavaScript
 
 Projeto de criação do Jogo Hockey de mesa. A evolução do projeto teve o apoio do curso DevSamurai.
 
