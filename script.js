@@ -40,7 +40,7 @@ function variaveis(){
 
  // Movimento do PLayer1 mobile
  folhaDesenho.addEventListener('touchmove', function(m){
- posicaoPlayer1 = m.touchY - alturaRaquete / 2
+ posicaoPlayer1 = m.clientY - alturaRaquete / 2
  });
 }
 function game(){
